@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple notes server that allows you to create, read, update, and delete notes. It uses a SQLite database to store the notes.
+This is a simple notes server that allows you to create, read, update, and delete notes. It uses a inmemory database to store the notes.
 
 ## Running
 
@@ -63,7 +63,8 @@ npm start
 ]
 ```
 
-3. Get a Single Note (GET /notes/:id)
+### Get a Single Note (GET /notes/:id)
+
 #### Request:
 
 `GET /notes/c1d2a3f4-5b6e-7890-1234-56789abcdef0`
