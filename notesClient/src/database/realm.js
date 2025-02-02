@@ -7,6 +7,7 @@ const NoteSchema = {
     title: 'string',
     content: 'string',
     updatedAt: 'date',
+    synced: { type: 'bool', default: false },
   },
   primaryKey: '_id',
 };

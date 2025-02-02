@@ -33,7 +33,7 @@ cd notesServer && npm start
 
 ### Run the client
 ```bash
-cd notesClient && npx react-native run-android
+cd notesClient && npm run android
 ```
 
 ## Image
