@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# React Native
+# OSX
+*.DS_Store
+
+# Android
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.keystore
+*.gradle
+/build/
+android/app/build/
+
+# iOS
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xcworkspace
+*.xcuserstate
+ios/Pods/
+ios/build/
